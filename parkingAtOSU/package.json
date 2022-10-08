@@ -1,0 +1,16 @@
+{
+  "name": "boring-garden-dive-7wa68",
+  "productName": "boring-garden-dive-7wa68",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "yusuf",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "19.0.6"
+  }
+}
