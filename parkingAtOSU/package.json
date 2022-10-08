@@ -31,5 +31,8 @@
     "vite": "^2.9.9"
   },
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "browser-location": "^1.0.1",
+    "electron-get-location": "^1.0.1"
+  }
 }
