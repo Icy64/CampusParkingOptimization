@@ -13,11 +13,11 @@
     <script type="module" src="./index.ts"></script>
   </head>
   <body>
-    <p>Menu top</p>
+    <p>Ohio State Parking</p>
     <div id="map"></div>
 
     <!-- 
-     The `defer` attribute causes the callback to execute after the full HTML
+     The `defer` attribute causes the call    back `to execute after the full HTML
      document has been parsed. For non-blocking uses, avoiding race conditions,
      and consistent behavior across browsers, consider loading using Promises
      with https://www.npmjs.com/package/@googlemaps/js-api-loader.
@@ -28,5 +28,11 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG6IwO55ht7TPC9T4_cYUm8P79kdI_ZAM&callback=initMap&v=weekly"
       defer
     ></script></body>
+    <button onclick="window.location.href='http://localhost:3000/satisfaction.html';" type="button" >submit feedback?</button>
+    
+    <button type="button">Wanna go somewhere?</button>
+    
+    <p></p>
+    <iframe src="http://localhost:3000/satisfaction.html"></iframe>
   </body>
 </html>
